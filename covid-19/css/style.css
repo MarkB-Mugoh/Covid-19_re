@@ -1,0 +1,45 @@
+.billyGrid{
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25% ;
+  grid-template-areas:
+    "a b c d";
+  grid-gap: 10px;
+}
+
+section#diva{
+    grid-area: a;
+    border-radius: 10px;
+}
+section#divb{
+    grid-area: b;
+    border-radius: 10px;
+
+}
+section#divc{
+    grid-area: c;
+    border-radius: 10px;
+
+}
+section#divd{
+    grid-area: d;
+    border-radius: 10px;
+
+}
+
+.cardClass{
+    padding: 5px;
+}
+
+p{
+    padding: 5px;
+    text-align: start;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+
+.readMore{
+    padding: 15px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
